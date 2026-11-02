@@ -1,0 +1,38 @@
+{
+  "organizationId": "org-demo-bitacora",
+  "establishments": [
+    {
+      "id": "est-org-demo-bitacora-01",
+      "organizationId": "org-demo-bitacora",
+      "name": "Spring Hotels · Hotel Bitácora",
+      "code": "ORG-BITACORA-E1",
+      "status": "activo"
+    }
+  ],
+  "departments": [
+    {
+      "id": "dep-org-demo-bitacora-cocina",
+      "organizationId": "org-demo-bitacora",
+      "establishmentId": "est-org-demo-bitacora-01",
+      "name": "Cocina & Gastronomía",
+      "code": "DEP-COC",
+      "category": "cocina",
+      "status": "activo"
+    }
+  ],
+  "pointsOfSale": [],
+  "jobRoles": [],
+  "users": [],
+  "kitchenAreas": [],
+  "documents": [],
+  "appccReadings": [],
+  "cleaningLogs": [],
+  "openedProducts": [],
+  "checklists": [],
+  "incidents": [],
+  "auditHistory": [],
+  "lastModifiedAt": "2026-10-25T00:40:27.513Z",
+  "adminConfig": {
+    "testKey": "testValue"
+  }
+}

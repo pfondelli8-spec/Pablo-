@@ -1,0 +1,108 @@
+[
+  {
+    "id": "SEC-LOG-1793557912653-846f6e",
+    "timestamp": "2026-11-01T18:31:52.653Z",
+    "type": "UNAUTHORIZED_CROSS_TENANT_ACCESS",
+    "severity": "CRITICAL",
+    "callerOrgId": "org-c9421153878e",
+    "targetOrgId": "org-99e3f0ec55df",
+    "endpoint": "/api/tenant/documents/org-99e3f0ec55df/doc-confidential-alpha-file",
+    "actionTaken": "HTTP_403_BLOCKED",
+    "details": "Violación de aislamiento bloqueada: 'org-c9421153878e' intentó acceder a recursos privados de 'org-99e3f0ec55df'."
+  },
+  {
+    "id": "SEC-LOG-1793557912652-0f911f",
+    "timestamp": "2026-11-01T18:31:52.652Z",
+    "type": "UNAUTHORIZED_CROSS_TENANT_ACCESS",
+    "severity": "CRITICAL",
+    "callerOrgId": "org-c9421153878e",
+    "targetOrgId": "org-99e3f0ec55df",
+    "endpoint": "/api/tenant/workspace/org-99e3f0ec55df",
+    "actionTaken": "HTTP_403_BLOCKED",
+    "details": "Violación de aislamiento bloqueada: 'org-c9421153878e' intentó acceder a recursos privados de 'org-99e3f0ec55df'."
+  },
+  {
+    "id": "SEC-LOG-1793557912652-e7d962",
+    "timestamp": "2026-11-01T18:31:52.652Z",
+    "type": "UNAUTHORIZED_CROSS_TENANT_ACCESS",
+    "severity": "CRITICAL",
+    "callerOrgId": "org-c9421153878e",
+    "targetOrgId": "org-99e3f0ec55df",
+    "endpoint": "/api/tenant/workspace/org-99e3f0ec55df",
+    "actionTaken": "HTTP_403_BLOCKED",
+    "details": "Violación de aislamiento bloqueada: 'org-c9421153878e' intentó acceder a recursos privados de 'org-99e3f0ec55df'."
+  },
+  {
+    "id": "SEC-LOG-1793557912651-009f10",
+    "timestamp": "2026-11-01T18:31:52.651Z",
+    "type": "TENANT_REGISTERED",
+    "severity": "INFO",
+    "targetOrgId": "org-c9421153878e",
+    "endpoint": "/api/tenant/register",
+    "actionTaken": "COMPLETED",
+    "details": "Organización Audit_Beta_Hospitality (ORG-AUDITBET-7112) creada por auditor.beta@security-test.internal."
+  },
+  {
+    "id": "SEC-LOG-1793557912649-5ddd6e",
+    "timestamp": "2026-11-01T18:31:52.649Z",
+    "type": "TENANT_REGISTERED",
+    "severity": "INFO",
+    "targetOrgId": "org-99e3f0ec55df",
+    "endpoint": "/api/tenant/register",
+    "actionTaken": "COMPLETED",
+    "details": "Organización Audit_Alpha_Corporation (ORG-AUDITALP-4122) creada por auditor.alpha@security-test.internal."
+  },
+  {
+    "id": "SEC-LOG-1793557897023-70fd51",
+    "timestamp": "2026-11-01T18:31:37.023Z",
+    "type": "UNAUTHORIZED_CROSS_TENANT_ACCESS",
+    "severity": "CRITICAL",
+    "callerOrgId": "org-5b483dfd716d",
+    "targetOrgId": "org-269010a12c41",
+    "endpoint": "/api/tenant/documents/org-269010a12c41/doc-confidential-alpha-file",
+    "actionTaken": "HTTP_403_BLOCKED",
+    "details": "Violación de aislamiento bloqueada: 'org-5b483dfd716d' intentó acceder a recursos privados de 'org-269010a12c41'."
+  },
+  {
+    "id": "SEC-LOG-1793557897022-8dfd28",
+    "timestamp": "2026-11-01T18:31:37.022Z",
+    "type": "UNAUTHORIZED_CROSS_TENANT_ACCESS",
+    "severity": "CRITICAL",
+    "callerOrgId": "org-5b483dfd716d",
+    "targetOrgId": "org-269010a12c41",
+    "endpoint": "/api/tenant/workspace/org-269010a12c41",
+    "actionTaken": "HTTP_403_BLOCKED",
+    "details": "Violación de aislamiento bloqueada: 'org-5b483dfd716d' intentó acceder a recursos privados de 'org-269010a12c41'."
+  },
+  {
+    "id": "SEC-LOG-1793557897021-f54be0",
+    "timestamp": "2026-11-01T18:31:37.022Z",
+    "type": "UNAUTHORIZED_CROSS_TENANT_ACCESS",
+    "severity": "CRITICAL",
+    "callerOrgId": "org-5b483dfd716d",
+    "targetOrgId": "org-269010a12c41",
+    "endpoint": "/api/tenant/workspace/org-269010a12c41",
+    "actionTaken": "HTTP_403_BLOCKED",
+    "details": "Violación de aislamiento bloqueada: 'org-5b483dfd716d' intentó acceder a recursos privados de 'org-269010a12c41'."
+  },
+  {
+    "id": "SEC-LOG-1793557897020-8aead8",
+    "timestamp": "2026-11-01T18:31:37.020Z",
+    "type": "TENANT_REGISTERED",
+    "severity": "INFO",
+    "targetOrgId": "org-5b483dfd716d",
+    "endpoint": "/api/tenant/register",
+    "actionTaken": "COMPLETED",
+    "details": "Organización Audit_Beta_Hospitality (ORG-AUDITBET-94AD) creada por auditor.beta@security-test.internal."
+  },
+  {
+    "id": "SEC-LOG-1793557897018-653655",
+    "timestamp": "2026-11-01T18:31:37.018Z",
+    "type": "TENANT_REGISTERED",
+    "severity": "INFO",
+    "targetOrgId": "org-269010a12c41",
+    "endpoint": "/api/tenant/register",
+    "actionTaken": "COMPLETED",
+    "details": "Organización Audit_Alpha_Corporation (ORG-AUDITALP-D436) creada por auditor.alpha@security-test.internal."
+  }
+]

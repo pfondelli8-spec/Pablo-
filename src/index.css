@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-ice-gray: #F8F9FA;
+    --bg-header-navy: #1A2530;
+    --text-charcoal: #2C3E50;
+    --color-soft-gold: #C5A880;
+    --color-soft-gold-hover: #b5976f;
+    --border-inactive: #E2E8F0;
+    --card-surface: #FFFFFF;
+  }
+
+  body {
+    font-family: 'Inter', 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #F8F9FA;
+    color: #2C3E50;
+    margin: 0;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-display {
+    font-family: 'Inter', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif !important;
+    font-weight: 700;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Reglas operativas F&B estandarizadas */
+.fnb-card {
+  background-color: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 12px;
+  box-shadow: none;
+}
+
+.fnb-btn-primary {
+  background-color: #C5A880;
+  color: #1A2530;
+  font-weight: 600;
+  border-radius: 10px;
+  transition: all 0.15s ease;
+}
+.fnb-btn-primary:hover {
+  background-color: #b5976f;
+}
+
+.fnb-btn-secondary {
+  background-color: transparent;
+  border: 1px solid #E2E8F0;
+  color: #2C3E50;
+  border-radius: 10px;
+  transition: all 0.15s ease;
+}
+.fnb-btn-secondary:hover {
+  background-color: #F1F5F9;
+  border-color: #CBD5E1;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F8F9FA;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
